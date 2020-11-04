@@ -12,5 +12,8 @@ scanf("%d", &b);
 printf("\n%d + %d= %d", a, b, sommer(a,b));
 printf("\n%d - %d= %d", a, b, soustraire(a,b));
 printf("\n%d / %d = %f\n", a, b, diviser(a,b));
+printf("%d %d %d ",sommer(a,b),soustraire(a,b),diviser(a,b));
+
+
 return (0);
 }
